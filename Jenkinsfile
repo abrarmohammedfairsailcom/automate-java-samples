@@ -2,8 +2,8 @@ pipeline {
 
     agent any
 
-    environment {
-        /*SFDX_USE_GENERIC_UNIX_KEYCHAIN = true
+    /*environment {
+        SFDX_USE_GENERIC_UNIX_KEYCHAIN = true
 
         String sfdx = ""
         String RUN_ARTIFACT_DIR="apexTestResults/${env.BUILD_NUMBER}"
@@ -14,8 +14,8 @@ pipeline {
 
         SPDEVHUB_CONSUMER_KEY = credentials('sage-people-jenkins-consumer-key')
         SPDEVHUB_USERNAME = credentials('sage-people-jenkins-username')
-        SPDEVHUB_JWTKEY = credentials('sage-people-devhub-key')*/
-    }
+        SPDEVHUB_JWTKEY = credentials('sage-people-devhub-key')
+    }*/
 
     stages {
 
